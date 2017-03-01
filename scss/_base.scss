@@ -1,14 +1,34 @@
+*, body {
+	box-sizing:border-box;
+}
+header {
+	h1, h2 {
+		display: inline-block;
+	}
+	h1 {
+		margin:20px;
+	}
+}
+
 #projects {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: flex-start;
+	.project {
+		width: 400px;
+		height: 400px;
+		border: 1px solid black;
+		display: inline-block;
+		margin:20px;
+		padding:20px;
+	} //.project
+	#exquisitecorpse {
+		@include projectHover("../img/exquisitecorpse.jpg");
+	}//#exquisitecorpse
+	#sop {
+		@include projectHover("../img/loveletters.jpg");
+	}
 }
-.project {
-	width: 400px;
-	height: 400px;
-	border: 1px solid black;
-	display: inline-block;
-	margin:20px;
-}
+
