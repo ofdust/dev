@@ -1,0 +1,14 @@
+#projects {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+.project {
+	width: 400px;
+	height: 400px;
+	border: 1px solid black;
+	display: inline-block;
+	margin:20px;
+}
