@@ -555,6 +555,17 @@ header a:hover {
   font-size: .9em;
 }
 
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: #FF3800;
+  height: 90px;
+}
+footer p {
+  padding: 35px;
+  color: #FFFCC4;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
