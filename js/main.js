@@ -6,7 +6,7 @@ function showInfo(project, projectID) {
 	$(project).fadeIn(500);
 }
 
-function hideInfo(project) {
+function hideInfo(project, projectID) {
 	$(project).hide();
 }
 
@@ -14,4 +14,10 @@ $("#sop").mouseenter(function(){showInfo("#sop > span");});
 $("#sop").mouseleave(function(){hideInfo("#sop >span");});
 
 $("#exquisitecorpse").mouseenter(function(){showInfo("#exquisitecorpse > span");});
-$("#exquisitecorpse").mouseleave(function(){hideInfo("#exquisitecorpse >span");});
+$("#exquisitecorpse").mouseleave(function(){hideInfo("#exquisitecorpse > span");});
+
+$("#sassbp").mouseenter(function(){showInfo("#sassbp > span");});
+$("#sassbp").mouseleave(function(){hideInfo("#sassbp > span");});
+
+$("#cs").mouseenter(function(){showInfo("#cs > span");});
+$("#cs").mouseleave(function(){hideInfo("#cs > span");});
