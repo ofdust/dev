@@ -516,6 +516,7 @@ header a:hover {
   display: inline-block;
   margin: 20px;
   padding: 20px;
+  position: relative;
 }
 #projects #exquisitecorpse {
   background-image: url("../img/exquisitecorpse.jpg");
@@ -528,6 +529,19 @@ header a:hover {
 }
 #projects #sop:hover {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url("../img/loveletters.jpg");
+}
+#projects #sassbp {
+  background-image: url("../img/sakura.png");
+}
+#projects #sassbp:hover {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url("../img/sakura.png");
+}
+
+.info {
+  position: absolute;
+  bottom: 10px;
+  color: white;
+  padding-right: 20px;
 }
 
 /* ==========================================================================

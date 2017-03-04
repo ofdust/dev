@@ -35,6 +35,7 @@ header {
 		display: inline-block;
 		margin:20px;
 		padding:20px;
+		position: relative;
 	} //.project
 	#exquisitecorpse {
 		@include projectHover("../img/exquisitecorpse.jpg");
@@ -42,5 +43,14 @@ header {
 	#sop {
 		@include projectHover("../img/loveletters.jpg");
 	}
+	#sassbp {
+		@include projectHover ("../img/sakura.png");
+	}
 }
 
+.info {
+	position: absolute;
+	bottom: 10px;
+	color: white;
+	padding-right: 20px;
+}
