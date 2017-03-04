@@ -491,9 +491,9 @@ header {
 header h1, header h2 {
   display: inline-block;
   font-family: 'Montserrat', sans-serif;
+  margin-left: 20px;
 }
 header h1 {
-  margin: 20px;
   letter-spacing: .1em;
 }
 header a {
