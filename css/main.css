@@ -543,6 +543,9 @@ header a:hover {
   color: white;
   padding-right: 20px;
 }
+.info h3 {
+  color: #FF3800;
+}
 
 /* ==========================================================================
    Helper classes

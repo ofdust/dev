@@ -2,15 +2,16 @@ $(document).ready(function() {
 	$(".info").hide();
 });
 	
-function showInfo(projectID) {
-	$(projectID).fadeIn(500);
-	console.log("pls work");
+function showInfo(project, projectID) {
+	$(project).fadeIn(500);
 }
 
-function hideInfo(projectID) {
-	$(projectID).hide();
+function hideInfo(project) {
+	$(project).hide();
 }
 
-var SOP = document.getElementById("sop");
-SOP.addEventListener("mouseover", function(){showInfo("#sop > span");}, false);
-SOP.addEventListener("mouseout", function(){hideInfo("#sop >span");}, false);
+$("#sop").mouseenter(function(){showInfo("#sop > span");});
+$("#sop").mouseleave(function(){hideInfo("#sop >span");});
+
+$("#exquisitecorpse").mouseenter(function(){showInfo("#exquisitecorpse > span");});
+$("#exquisitecorpse").mouseleave(function(){hideInfo("#exquisitecorpse >span");});
