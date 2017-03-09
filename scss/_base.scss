@@ -39,6 +39,9 @@ header {
 		padding:20px;
 		position: relative;
 	} //.project
+	#bashme {
+		@include projectHover("../img/bashme.jpg");
+	}
 	#exquisitecorpse {
 		@include projectHover("../img/exquisitecorpse.jpg");
 	}//#exquisitecorpse
@@ -59,6 +62,7 @@ header {
 		color: #D4D2A5;
 		font-family: 'Montserrat', sans-serif;
 		font-size: 1.1em;
+		width: 100%;
 		border-bottom: 1px solid #D4D2A5;
 	}
 	p {

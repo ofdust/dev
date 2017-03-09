@@ -519,6 +519,12 @@ header a:hover {
   padding: 20px;
   position: relative;
 }
+#projects #bashme {
+  background-image: url("../img/bashme.jpg");
+}
+#projects #bashme:hover {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url("../img/bashme.jpg");
+}
 #projects #exquisitecorpse {
   background-image: url("../img/exquisitecorpse.jpg");
 }
@@ -548,6 +554,7 @@ header a:hover {
   color: #D4D2A5;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.1em;
+  width: 100%;
   border-bottom: 1px solid #D4D2A5;
 }
 .info p {

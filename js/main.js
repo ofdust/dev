@@ -10,6 +10,9 @@ function hideInfo(project, projectID) {
 	$(project).hide();
 }
 
+$("#bashme").mouseenter(function(){showInfo("#bashme > span");});
+$("#bashme").mouseleave(function(){hideInfo("#bashme > span");});
+
 $("#sop").mouseenter(function(){showInfo("#sop > span");});
 $("#sop").mouseleave(function(){hideInfo("#sop >span");});
 
