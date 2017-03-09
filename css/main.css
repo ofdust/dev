@@ -510,6 +510,7 @@ header a:hover {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: flex-start;
+  padding: 10px;
 }
 #projects .project {
   width: 400px;
@@ -538,10 +539,10 @@ header a:hover {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url("../img/loveletters.jpg");
 }
 #projects #sassbp {
-  background-image: url("../img/sakura.png");
+  background-image: url("../img/sassbp.jpg");
 }
 #projects #sassbp:hover {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url("../img/sakura.png");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url("../img/sassbp.jpg");
 }
 
 .info {

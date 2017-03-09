@@ -30,6 +30,7 @@ header {
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: flex-start;
+	padding: 10px;
 	.project {
 		width: 400px;
 		height: 400px;
@@ -49,7 +50,7 @@ header {
 		@include projectHover("../img/loveletters.jpg");
 	}
 	#sassbp {
-		@include projectHover ("../img/sakura.png");
+		@include projectHover ("../img/sassbp.jpg");
 	}
 }
 
