@@ -550,6 +550,12 @@ header a:hover {
 #projects #fc:hover {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url("../img/fauxcompany.jpg");
 }
+#projects #float {
+  background-image: url("../img/float.jpg");
+}
+#projects #float:hover {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url("../img/float.jpg");
+}
 
 .info {
   position: absolute;

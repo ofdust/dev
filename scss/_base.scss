@@ -55,6 +55,9 @@ header {
 	#fc {
 		@include projectHover ("../img/fauxcompany.jpg");
 	}
+	#float {
+		@include projectHover ("../img/float.jpg");
+	}
 }
 
 .info {
