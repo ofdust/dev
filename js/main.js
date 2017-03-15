@@ -24,3 +24,6 @@ $("#sassbp").mouseleave(function(){hideInfo("#sassbp > span");});
 
 $("#cs").mouseenter(function(){showInfo("#cs > span");});
 $("#cs").mouseleave(function(){hideInfo("#cs > span");});
+
+$("#fc").mouseenter(function(){showInfo("#fc > span");});
+$("#fc").mouseleave(function(){hideInfo("#fc > span");});
