@@ -52,6 +52,9 @@ header {
 	#sassbp {
 		@include projectHover ("../img/sassbp.jpg");
 	}
+	#fc {
+		@include projectHover ("../img/fauxcompany.jpg");
+	}
 }
 
 .info {
