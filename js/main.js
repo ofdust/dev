@@ -1,6 +1,22 @@
-$(document).ready(function() {
+// var run;
+
+// var mq = window.matchMedia( "(min-width: 768px)" );
+// if (mq.matches) {
+// 	$(".info").show();
+// 	run == false;
+// }
+// else {
+// 	run == true;
+// }
+
+// if (run == true) {
 	$(".info").hide();
-});
+// }
+// else {
+// 	//$(".info").html
+// }
+
+
 	
 function showInfo(project, projectID) {
 	$(project).fadeIn(500);
@@ -30,3 +46,6 @@ $("#fc").mouseleave(function(){hideInfo("#fc > span");});
 
 $("#float").mouseenter(function(){showInfo("#float > span");});
 $("#float").mouseleave(function(){hideInfo("#float > span");});
+
+
+
