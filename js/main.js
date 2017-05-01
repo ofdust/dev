@@ -1,26 +1,11 @@
-// var run;
 
-// var mq = window.matchMedia( "(min-width: 768px)" );
-// if (mq.matches) {
-// 	$(".info").show();
-// 	run == false;
-// }
-// else {
-// 	run == true;
-// }
+$(".info").hide();
 
-// if (run == true) {
-	$(".info").hide();
-// }
-// else {
-// 	//$(".info").html
-// }
 
 var mq = window.matchMedia( "(max-width: 712px)" );
 if (mq.matches) {
 	$(".info").show();
 	$(".info").css("background", "rgba(0,0,0,.7)");
-	//$(".project").css("background", "+linear-gradient( to bottom, rgba(0,0,0,.2), rgba(0,0,0,.8))+");
 
 }
 else {
@@ -53,6 +38,14 @@ else {
 	$("#float").mouseenter(function(){showInfo("#float > span");});
 	$("#float").mouseleave(function(){hideInfo("#float > span");});
 
+	$("#flex").mouseenter(function(){showInfo("#flex > span");});
+	$("#flex").mouseleave(function(){hideInfo("#flex > span");});
+
+	$("#parallax").mouseenter(function(){showInfo("#parallax > span");});
+	$("#parallax").mouseleave(function(){hideInfo("#parallax > span");});
+
+	$("#wordpress").mouseenter(function(){showInfo("#wordpress > span");});
+	$("#wordpress").mouseleave(function(){hideInfo("#wordpress > span");});
 
 }
 

@@ -562,6 +562,24 @@ header a:hover {
 #projects #float:hover {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url("../img/float.jpg");
 }
+#projects #flex {
+  background-image: url("../img/flexmessage.jpg");
+}
+#projects #flex:hover {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url("../img/flexmessage.jpg");
+}
+#projects #parallax {
+  background-image: url("../img/pluto.jpg");
+}
+#projects #parallax:hover {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url("../img/pluto.jpg");
+}
+#projects #wordpress {
+  background-image: url("../img/wordpress.jpg");
+}
+#projects #wordpress:hover {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url("../img/wordpress.jpg");
+}
 
 .info {
   position: absolute;
