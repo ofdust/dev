@@ -513,8 +513,8 @@ header a:hover {
   padding: 10px;
 }
 #projects .project {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   display: inline-block;
   margin: 20px;
   padding: 20px;
@@ -592,6 +592,14 @@ footer p {
   color: #FFFCC4;
 }
 
+@media only screen and (max-width: 712px) {
+  #projects .project .info {
+    width: 100%;
+    bottom: 0;
+    margin-left: -20px;
+    padding-left: 10px;
+  }
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */

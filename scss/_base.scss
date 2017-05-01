@@ -32,8 +32,8 @@ header {
 	align-items: flex-start;
 	padding: 10px;
 	.project {
-		width: 400px;
-		height: 400px;
+		width: 300px;
+		height: 300px;
 		//border: 1px solid black;
 		display: inline-block;
 		margin:20px;
@@ -92,6 +92,16 @@ footer {
 	}
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 712px) {
+	#projects {
+		.project {
+			.info {
+				width: 100%;
+				bottom: 0;
+				margin-left: -20px;
+				padding-left: 10px;
+			}
+		}
+	}
 	
 }
